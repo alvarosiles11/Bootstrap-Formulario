@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body class="container">
+	<br><br><h1>Registro Personas</h1><br><br>	
+
+<div class="row">
+
+ <div class="form-horizontal col-md-3" >
+	
+
+				<div class="form-group">
+					<label class="control-label col-md-5">DNI :</label>
+					<div class="col-md-7"><input class="form-control" type="number" name="nombres" placeholder="escribir DNI" required="">	</div>
+				</div>
+		
+				<div class="form-group">
+					<label class="control-label col-md-5">Nombres :</label>
+					<div class="col-md-7"><input class="form-control" type="text" name="nombres" placeholder="escribir nombre" required="">	</div>
+				</div>
+				
+				<div class="form-group">
+					<label class="control-label col-md-5">Apellidos :</label>
+					<div class="col-md-7"><input class="form-control" type="text" name="nombres" placeholder="escribir apellidos" required="">	</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-md-5">Edad :</label>
+					<div class="col-md-7"><input class="form-control" type="number" min="4" max="80" name="nombres" placeholder="escribir edad" required="">	</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-md-5">Telefono :</label>
+					<div class="col-md-7"><input class="form-control" type="number" name="nombres" placeholder="escribir telefono" required="">	</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-md-5">Email :</label>
+					<div class="col-md-7"><input class="form-control" type="email" name="nombres" placeholder="escribir email" required="">	</div>
+				</div>
+
+				<div class="form-group">
+					<label class="control-label col-md-5">Sexo :</label>
+
+					<div class="col-md-7">
+					<label   > <input name="radio" type="radio"  value="1" checked="">  Hombre</label>	
+					<label  > <input name="radio" type="radio" value="2" checked="" >  Mujer</label>
+
+ 					</div>
+				</div>
+
+
+				<div class="form-group">
+					<label class="control-label col-md-5">Ciudad :</label>
+
+					<div class="col-md-7">
+						<select class="form-control" id="ciudadId" name="ciudad">
+							<option> Santa Cruz</option>
+							<option> La Paz</option>
+							<option> Cochabamba</option>
+							<option value="or"> Oruro</option>
+							<option value="bn"> Beni</option>
+						</select>
+					</div>
+				</div>
+				
+
+				<div class="form-group">
+					<label class="control-label col-md-5">Pais :</label>
+					<div class="col-md-7"><input class="form-control" type="text" name="nombres" placeholder="escribir pais" value="Bolivia" disabled=""></div>
+				</div>
+		
+		
+				<div class="form-group">
+					<div class="col-md-offset-3 col-md-9">
+						
+
+						<input type="submit" name="botonCancelar" class="btn btn-danger" value="Cancelar">
+
+						<a href=" p1.html"> <input type="submit" name="botonGuardar" class="btn " style="color: white; background-color: #1565C0; " value="Guardar"></a> 
+
+					</div>
+				</div>
+	
+
+	</div>	
+	 
+
+	<div class="form-horizontal col-md-8" >
+		 
+		
+		<table class="table table-hover table-bordered tab-pane text-center table-responsive table-striped" >
+			<thead class="text-center" style="color: white; background-color: #D50000; ">
+				<tr class="text-center text-capitalize">
+					<th>DNI</th>
+					<th>Nombres</th>
+					<th>Apelidos</th>
+					<th>Edad</th>
+					<th>Telefono</th>
+					<th>Email</th>
+					<th>Sexo</th>
+					<th>Ciudad</th>
+					<th>Pais</th>
+
+					<th>Editar</th>
+					<th>Eliminar</th>
+
+
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>737827</td>
+					<td>Nicol </td>
+					<td>Sanchez</td>
+					<td>28</td>
+					<td>78832323</td>
+					<td>nicolsanchez@gmail.com</td>
+					<td>Mujer</td>
+					<td>Santac Cruz</td>
+					<td>Bolivia</td>
+ 
+
+					
+					 
+					 <td> <a href=" p2.html"> <i class="glyphicon glyphicon-pencil text-primary"> </i>  </a> </td>
+					<td> <a href=" p3.html">  <i class="glyphicon glyphicon-remove text-danger"> </i>  </a> </td>
+
+				</tr>
+			</tbody>	
+
+		</table>
+
+
+
+	</div>
+  
+
+</div>
+
+
+</body>
+</html>
